@@ -10,5 +10,455 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+    "pages" : [
+      {
+        "id" : "home",
+        "content" : {
+    "slug": {
+      "en": "https://villalavalencia.com/",
+      "es": "https://villalavalencia.mx/"
+    },
+    "header": {
+      "variation": "full",
+      "carrousel": [
+        {
+          "title": " Destellos de Verano",
+          "url": "/venta-de-verano",
+          "type_special": "normal",
+          "type_media": "image",
+          "media_desktop": "https://villacdn.villagroupresorts.com/uploads/special/slider/1940/Rise___Shine_Main_Slider_VLV_1920x1080.jpg",
+          "media_mobile": "https://villacdn.villagroupresorts.com/uploads/special/image_mobile/1940/Rise___Shine_Main_Slider_Movil_VLV_768X1024.jpg",
+          "order": 1
+        },
+        {
+          "title": "4 de Julio ",
+          "url": "/4-de-julio",
+          "type_special": "normal",
+          "type_media": "image",
+          "media_desktop": "https://villacdn.villagroupresorts.com/uploads/special/slider/1981/4th_of_July_Main_Slider_VLV_1920x1080.jpg",
+          "media_mobile": "https://villacdn.villagroupresorts.com/uploads/special/image_mobile/1981/4th_of_July_Main_Slider_Movil_VLV_768X1024.jpg",
+          "order": 2
+        },
+        {
+          "title": "Suites Familiares, Doble Diversión",
+          "url": "/suites-familiares-doble-diversion",
+          "type_special": "normal",
+          "type_media": "image",
+          "media_desktop": "https://villacdn.villagroupresorts.com/uploads/special/slider/1814/More-Space-More-Fun-Cabo-Es.jpg",
+          "media_mobile": "https://villacdn.villagroupresorts.com/uploads/special/image_mobile/1814/768X1024_Mobil_VLV.jpg",
+          "order": 3
+        },
+        {
+          "title": "Hotel más Vuelo",
+          "url": "/hotel-mas-vuelo",
+          "type_special": "fly_hotel",
+          "type_media": "image",
+          "media_desktop": "https://villacdn.villagroupresorts.com/uploads/special/slider/1708/Hotel_Vuelo-1920x1080.jpg",
+          "media_mobile": "https://villacdn.villagroupresorts.com/uploads/special/image_mobile/1708/Hotel_Vuelo_768X1024.jpg",
+          "order": 4
+        },
+        {
+            "title": "Video Promotional",
+            "url": "/video-promotional",
+            "type_special": "normal",
+            "type_media": "video",
+            "media_desktop": "https://villacdn.villagroupresorts.com/uploads/template_home/cover_video/14/21_04_VLV_LC.mp4",
+            "media_mobile": "https://villacdn.villagroupresorts.com/uploads/template_home/cover_video/14/21_04_VLV_LC.mp4",
+            "order": 5
+          }
+      ],
+      "booking_view": { "show_booking_form": true, "show_book_now_button": true },
+      "logos": {
+        "notificaciones": "https://villacdn.villagroupresorts.com/uploads/hotel/logo/22/VLV-LC.jpg",
+        "rediseño": "https://villacdn.villagroupresorts.com/uploads/hotel/logo_new/22/Villa_La_Valencia_Oficial_Web.svg",
+        "icon": "https://villacdn.villagroupresorts.com/uploads/hotel/logo_icon/22/Villa_La_Valencia_Favicon.svg",
+        "email": "https://villacdn.villagroupresorts.com/uploads/hotel/logo_en/22/Villa_La_Valencia.svg"
+      }
+    },
+    "booking": {
+      "phone": "800 522 0059",
+      "footer_phone": "624 145 7000 ",
+      "motors": { "only_hotel": "Roiback", "hotel_flight": "ReservHotel" },
+      "roiback_booking_url": "https://reservas.villalavalencia.mx/bookcore/v4/search-dispo.htm",
+      "hotelid": 34130
+    },
+    "seo": {
+      "custom_url": "/",
+      "meta_description": "Villa La Valencia Beach Resort & Spa Los Cabos, Hotel con opción Todo Incluido frente al mar en San José del Cabo, Los Cabos, México. Página Web Oficial.",
+      "meta_keywords": "Villa La Valencia Beach Resort & Spa Los Cabos, Villa la valencia, villa la valencia los cabos, mejores hoteles de lujo en México, hoteles en los cabos, hoteles en los cabos todo incluido",
+      "optional": "",
+      "schemas_list": [
+        {
+          "id_schema": "Hotel",
+          "content": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Hotel\",\n    \"name\": \"Villa La Valencia Beach Resort & Spa Los Cabos®\",\n    \"description\": \"Villa La Valencia Beach Resort & Spa Los Cabos®, Hotel con opción Todo Incluido frente al mar en San José del Cabo, Los Cabos, México. Página Web Oficial.\",\n    \"image\": \"https://bucketrediseno.s3.amazonaws.com/uploads/hotel/cover/22/optimizada_Villa-La-Valencia-Beach-Resort-And-Spa-Pools-14.jpeg\",\n    \"url\": \"https://villalavalencia.com/\",\n    \"sameAs\": [\n        \"https://www.facebook.com/VillaLaValencia\",\n        \"https://www.instagram.com/villalavalencia/\",\n        \"https://twitter.com/VillaLaValencia\",\n        \"https://www.pinterest.com/villagroup/\",\n        \"https://www.youtube.com/channel/UCpReh2C0E6Al1DBO6-xB_cw\"\n    ],\n    \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressCountry\": \"México\",\n        \"addressLocality\": \"San José del Cabo\",\n        \"addressRegion\": \"Baja California Sur\",\n        \"postalCode\": \"23405\",\n        \"streetAddress\": \"Km.18.5 Carretera Transpeninsular San José-San Lucas, Col. Lomas del tule, San José del Cabo\"\n    },\n    \"telephone\": \"1 877 897 1931\",\n    \"priceRange\": \"$280 - $750\"\n}"
+        },
+        {
+          "id_schema": "Voz",
+          "content": "{\n    \"@context\": \"https://schema.org/\",\n    \"@type\": \"WebPage\",\n    \"name\": \"Villa la valencia los cabos\",\n    \"speakable\": {\n        \"@type\": \"SpeakableSpecification\",\n        \"xPath\": [\n            \"/html/head/title\",\n            \"/html/head/meta[@name='description']/@content\"\n        ]\n    },\n    \"url\": \"https://villalavalencia.mx/\"\n}"
+        }
+      ]
+    },
+    "translations": {
+      "section_lazy_river_title": "Villa La Valencia Beach Resort & Spa Cabo San Lucas",
+      "section_lazy_river_tagline": "Resort frente al mar en Los Cabos, México con opción a todo incluido",
+      "section_lazy_river_content": "",
+      "section_lazy_river_gallery": [
+        {
+          "image": "https://villacdn.villagroupresorts.com/uploads/wedding_package/image/87/Premium-reception-package.jpg",
+          "order": 1
+        },
+        {
+          "image": "https://villacdn.villagroupresorts.com/uploads/wedding_package/image/82/Complimentary-Wedding-Ceremony.jpg",
+          "order": 2
+        },
+        {
+          "image": "https://villacdn.villagroupresorts.com/uploads/wedding_package/image/87/Premium-reception-package.jpg",
+          "order": 3
+        }
+      ],
+      "section_lazy_river_url": "",
+      "section_suites_carrousel": [
+        {
+          "type_suite": "normal",
+          "suite_price_from": 6100.0,
+          "image": "https://villacdn.villagroupresorts.com/uploads/template_suite/image/19/Villa-La-Valencia-Cabo-Four-Bedroom-Suite-Oceant-Front.jpg",
+          "order": 1
+        },
+        {
+          "type_suite": "superior",
+          "suite_price_from": 24720.0,
+          "image": "https://villacdn.villagroupresorts.com/uploads/template_suite/image/19/Villa-La-Valencia-Cabo-Four-Bedroom-Suite-Oceant-Front.jpg",
+          "order": 3
+        }
+      ],
+      "section_vlevel_description": "<p>Bienvenido al programa de beneficios exclusivos que realmente funciona para ti. Con V-Level de&nbsp;<b>Villa La Valencia Cabo,</b> obtendrás <b>créditos de resort,</b> acceso a promociones únicas y mucho más.</p><p><span style=\"font-size: 1.4rem;\">Como invitado V-Level obtendrás grandes </span><b style=\"font-size: 1.4rem;\">beneficios del hotel,</b><span style=\"font-size: 1.4rem;\"> no solo serás el primero en enterarte de importantes ofertas exclusivas, sino también podrás disfrutar de los exclusivos </span><b style=\"font-size: 1.4rem;\">beneficios de hospedarse en </b><b>Villa La Valencia Cabo</b><b style=\"font-size: 1.4rem;\">&nbsp;</b><span style=\"font-size: 1.4rem;\">como las mejores tarifas, check-in temprano, salida tardía y mucho más, que te ayudarán a planificar tu viaje a México y que pondrán ahorros extra en tu bolsillo.&nbsp;</span></p><p>V-Level, es la forma más fácil de hacer realidad las vacaciones de tus sueños.</p>",
+      "section_vlevel_logos": {
+        "white": "https://villacdn.villagroupresorts.com/uploads/template_benefit/logo_vlevel_white/11/logo-vlevel-white.svg",
+        "color": "https://villacdn.villagroupresorts.com/uploads/template_benefit/logo_vlevel_color/11/logo-vlevel-color.svg"
+      },
+      "section_vlevel_gallery": {
+        "cover": "https://villacdn.villagroupresorts.com/uploads/template_benefit/cover/11/v-level-1920x650.jpg",
+        "benefits_image": "",
+        "cover_table": "https://villacdn.villagroupresorts.com/uploads/template_benefit/cover_table/11/cover-benefits-table.jpg"
+      },
+      "section_promotions_slider": [
+        {
+          "order": 1,
+          "title": " Destellos de Verano",
+          "type": "normal",
+          "hidden": true,
+          "description": "<ul>\r\n<li>$20usd de Descuento en Alimentos y Bebidas*</li>\r\n<li>Hasta $350USD Spa Credit*&nbsp;</li>\r\n<li>Niños se hospedan Gratis.&nbsp;</li>\r\n<li>Desayuno Gratis</li>\r\n</ul>\r\n<p>En Villa La Valencia Los Cabos, estamos listos para hacer de tu próxima estancia con nosotros tus mejores<strong> vacaciones de verano </strong>en la playa. Nuestras <strong>ofertas de verano </strong>te ofrecen la oportunidad de reservar una estancia todo incluido en el <strong>mejor hotel en Cabo San Lucas</strong>. No solo es el verano el mejor momento para visitar este destinos, sino que también es tu oportunidad de vivir una experiencia de resort inigualable con estos <strong>descuentos de temporada</strong>. Reserva hoy para apartar una suite cerca de las atracciones favoritas de nuestros huéspedes.</p>\r\n<p>¡Estamos ansiosos por tu llegada!</p>",
+          "image": "https://villacdn.villagroupresorts.com/uploads/special/image_mobile/1940/Rise___Shine_Main_Slider_Movil_VLV_768X1024.jpg",
+          "promo_code": "RISE24",
+          "url": "/venta-de-verano",
+          "room_only": { "regula_price": 10660.0, "vlevel_price": 6547.0 },
+          "all_inclusive": { "regula_price": 14130.0, "vlevel_price": 8752.0 },
+          "call_center_active": false,
+          "booking_hotel_fly": true,
+          "min_noches": 1,
+          "travel_dates": {
+            "travel_start": "2025-07-01T00:00:00",
+            "travel_end": "2026-07-31T00:00:00"
+          }
+        },
+        {
+          "order": 2,
+          "title": "4 de Julio ",
+          "type": "express",
+          "description": "<ul>\r\n<li>$20usd de Descuento en Alimentos y Bebidas*</li>\r\n<li>Hasta $350USD Spa Credit*</li><li>Niños se hospedan Gratis.&nbsp;</li>\r\n<li>Desayuno Gratis</li></ul>\r\n<p>Este <strong>4 de julio</strong>, permítenos deleitarte con ofertas exclusivas. Aprovecha esta oportunidad y eleva tu experiencia vacacional en el<strong> mejor hotel en Los Cabos con todo incluido</strong>.</p>\r\n<p>Celebra el espíritu de la independencia sumergiéndote en la belleza y el lujo incomparables de México. Desde impresionantes vistas al mar hasta amenidades de clase mundial, cada aspecto de tu estancia está diseñado para hacerte sentir como en casa y celebrar con estilo. Únete a nosotros para honrar este fin de semana festivo. ¡<strong>Feliz 4 de julio</strong>!</p>",
+          "image": "https://villacdn.villagroupresorts.com/uploads/special/image_mobile/1981/4th_of_July_Main_Slider_Movil_VLV_768X1024.jpg",
+          "promo_code": "SPECIALOFFER23",
+          "url": "/4-de-julio",
+          "room_only": { "regula_price": 5706.0 },
+          "all_inclusive": { "regula_price": 7440.0},
+          "call_center_active": false,
+          "booking_hotel_fly": true,
+          "min_noches": 1,
+          "travel_dates": {
+            "travel_start": "2025-06-21T00:00:00",
+            "travel_end": "2026-01-06T00:00:00"
+          }
+        },
+        {
+          "order": 3,
+          "title": "Suites Familiares, Doble Diversión",
+          "type": "express",
+          "description": "<p>Llegó la mejor temporada para reservar nuestras <strong>suites familiares </strong>para sus <strong>vacaciones de verano</strong>. Las<strong> suites superiores</strong> de <strong>Villa La Valencia Los Cabos</strong> tienen todo lo que podrías pedir para unas <strong>vacaciones familiares</strong> llenas de lujo y comodidad. Relájate al máximo en sus espaciosas habitaciones y deléitate con la elegancia de sus cocinas completamente equipadas, sala, comedor y terrazas al aire libre. Experimenta el máximo lujo con tu Chef Privado en Villa Experience, que transformará tus comidas en obras maestras gourmet, mejorando tu lujosa estancia. Disfruten <strong>la mejor temporada para visitar Los Cabo</strong> juntos en estas <strong>suites plus</strong> aprovechando estas grandes <strong>ofertas de verano</strong> hoy.</p>",
+          "image": "https://villacdn.villagroupresorts.com/uploads/special/image_mobile/1814/768X1024_Mobil_VLV.jpg",
+          "promo_code": "FS24",
+          "url": "/suites-familiares-doble-diversion",
+          "room_only": { "regula_price": 5642.0, "vlevel_price": 5360.0 },
+          "all_inclusive": { "regula_price": 7699.0, "vlevel_price": 7314.0 },
+          "call_center_active": false,
+          "booking_hotel_fly": true,
+          "min_noches": 1,
+          "travel_dates": {
+            "travel_start": "2025-03-19T00:00:00",
+            "travel_end": "2026-01-05T00:00:00"
+          }
+        },
+        {
+          "order": 3,
+          "title": "Suites Familiares, Doble Diversión",
+          "type": "express",
+          "description": "<p>Llegó la mejor temporada para reservar nuestras <strong>suites familiares </strong>para sus <strong>vacaciones de verano</strong>. Las<strong> suites superiores</strong> de <strong>Villa La Valencia Los Cabos</strong> tienen todo lo que podrías pedir para unas <strong>vacaciones familiares</strong> llenas de lujo y comodidad. Relájate al máximo en sus espaciosas habitaciones y deléitate con la elegancia de sus cocinas completamente equipadas, sala, comedor y terrazas al aire libre. Experimenta el máximo lujo con tu Chef Privado en Villa Experience, que transformará tus comidas en obras maestras gourmet, mejorando tu lujosa estancia. Disfruten <strong>la mejor temporada para visitar Los Cabo</strong> juntos en estas <strong>suites plus</strong> aprovechando estas grandes <strong>ofertas de verano</strong> hoy.</p>",
+          "image": "https://villacdn.villagroupresorts.com/uploads/special/image_mobile/1814/768X1024_Mobil_VLV.jpg",
+          "promo_code": "FS24",
+          "url": "/suites-familiares-doble-diversion",
+          "room_only": {  },
+          "all_inclusive": { "regula_price": 7699.0, "vlevel_price": 7314.0 },
+          "call_center_active": false,
+          "booking_hotel_fly": true,
+          "min_noches": 1,
+          "travel_dates": {
+            "travel_start": "2025-03-19T00:00:00",
+            "travel_end": "2026-01-05T00:00:00"
+          }
+        },
+        {
+          "order": 3,
+          "title": "Suites Familiares, Doble Diversión",
+          "type": "express",
+          "description": "<p>Llegó la mejor temporada para reservar nuestras <strong>suites familiares </strong>para sus <strong>vacaciones de verano</strong>. Las<strong> suites superiores</strong> de <strong>Villa La Valencia Los Cabos</strong> tienen todo lo que podrías pedir para unas <strong>vacaciones familiares</strong> llenas de lujo y comodidad. Relájate al máximo en sus espaciosas habitaciones y deléitate con la elegancia de sus cocinas completamente equipadas, sala, comedor y terrazas al aire libre. Experimenta el máximo lujo con tu Chef Privado en Villa Experience, que transformará tus comidas en obras maestras gourmet, mejorando tu lujosa estancia. Disfruten <strong>la mejor temporada para visitar Los Cabo</strong> juntos en estas <strong>suites plus</strong> aprovechando estas grandes <strong>ofertas de verano</strong> hoy.</p>",
+          "image": "https://villacdn.villagroupresorts.com/uploads/special/image_mobile/1814/768X1024_Mobil_VLV.jpg",
+          "promo_code": "FS24",
+          "url": "/suites-familiares-doble-diversion",
+          "room_only": { "regula_price": 5642.0},
+          "all_inclusive": { },
+          "call_center_active": false,
+          "booking_hotel_fly": true,
+          "min_noches": 1,
+          "travel_dates": {
+            "travel_start": "2025-03-19T00:00:00",
+            "travel_end": "2026-01-05T00:00:00"
+          }
+        },
+        {
+          "order": 3,
+          "title": "Suites Familiares, Doble Diversión",
+          "type": "express",
+          "description": "<p>Llegó la mejor temporada para reservar nuestras <strong>suites familiares </strong>para sus <strong>vacaciones de verano</strong>. Las<strong> suites superiores</strong> de <strong>Villa La Valencia Los Cabos</strong> tienen todo lo que podrías pedir para unas <strong>vacaciones familiares</strong> llenas de lujo y comodidad. Relájate al máximo en sus espaciosas habitaciones y deléitate con la elegancia de sus cocinas completamente equipadas, sala, comedor y terrazas al aire libre. Experimenta el máximo lujo con tu Chef Privado en Villa Experience, que transformará tus comidas en obras maestras gourmet, mejorando tu lujosa estancia. Disfruten <strong>la mejor temporada para visitar Los Cabo</strong> juntos en estas <strong>suites plus</strong> aprovechando estas grandes <strong>ofertas de verano</strong> hoy.</p>",
+          "image": "https://villacdn.villagroupresorts.com/uploads/special/image_mobile/1814/768X1024_Mobil_VLV.jpg",
+          "promo_code": "FS24",
+          "url": "/suites-familiares-doble-diversion",
+          "room_only": { },
+          "all_inclusive": { },
+          "call_center_active": false,
+          "booking_hotel_fly": true,
+          "min_noches": 1,
+          "travel_dates": {
+            "travel_start": "2025-03-19T00:00:00",
+            "travel_end": "2026-01-05T00:00:00"
+          }
+        },
+        {
+          "order": 100,
+          "title": "Mejor Tarifa Garantizada",
+          "type" : "express",
+          "description": "<p>¿De verdad crees encontrar mejor precios en otros sitios Web?&nbsp;</p>\r\n<p>En <strong>Villa La Valencia, Los Cabos&nbsp;</strong>no solo le garantizamos <strong>la mejor tarifa</strong>, nos tomamos en serio en ofrecer el mejor precio a nuestros clientes. Nos aseguramos de ofrecer <strong>la mejor oferta para tus vacaciones</strong>, esto significa que si encuentras una tarifa más baja en la misma categoría de habitación de nuestro hotel en otro lugar, no solo la igualamos <strong>¡La Superamos!&nbsp;</strong></p>\r\n<p>¿Cómo puedes obtener la mejor tarifa?&nbsp;</p>\r\n<p>Sencillo tan solo en tres pasos obtendrás la mejor tarifa garantizada online* marcando al<b> 800 522 0059</b></p>\r\n<p><strong>1. Llámanos:&nbsp;</strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 1rem;\">Marca a nuestro call center con el registro de tu tarifa más baja&nbsp;</span></p>\r\n<p><strong>2. Te igualamos el Precio:&nbsp;</strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 1rem;\">Nuestros Agentes verificarán y replicarán el precio que encontraste.&nbsp;</span></p>\r\n<p><strong>3. Ahorra y disfruta:&nbsp;</strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 1rem;\">Nuestros agentes te proporcionarán la mejor tarifa y sus beneficios. ¡Listo!&nbsp;</span></p>\r\n<p>A disfrutar de unas vacaciones al mejor precio.</p>",
+          "image": "https://villacdn.villagroupresorts.com/uploads/special/image_mobile/1790/Mejor-Tarifa-5.jpg",
+          "promo_code": "FLASH10",
+          "url": "/mejor-tarifa-garantizada",
+          "room_only": { "regula_price": 8403.0, "vlevel_price": 5042.0 },
+          "all_inclusive": { "regula_price": 11767.0 },
+          "call_center_active": true,
+          "booking_hotel_fly": true,
+          "min_noches": 1,
+          "travel_dates": {
+            "travel_start": "2025-03-21T00:00:00",
+            "travel_end": "2026-01-05T00:00:00"
+          }
+        },
+        {
+          "order": 100,
+          "title": "Mejor Tarifa Garantizada",
+          "type" : "fly-hotel",
+          "description": "<p>¿De verdad crees encontrar mejor precios en otros sitios Web?&nbsp;</p>\r\n<p>En <strong>Villa La Valencia, Los Cabos&nbsp;</strong>no solo le garantizamos <strong>la mejor tarifa</strong>, nos tomamos en serio en ofrecer el mejor precio a nuestros clientes. Nos aseguramos de ofrecer <strong>la mejor oferta para tus vacaciones</strong>, esto significa que si encuentras una tarifa más baja en la misma categoría de habitación de nuestro hotel en otro lugar, no solo la igualamos <strong>¡La Superamos!&nbsp;</strong></p>\r\n<p>¿Cómo puedes obtener la mejor tarifa?&nbsp;</p>\r\n<p>Sencillo tan solo en tres pasos obtendrás la mejor tarifa garantizada online* marcando al<b> 800 522 0059</b></p>\r\n<p><strong>1. Llámanos:&nbsp;</strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 1rem;\">Marca a nuestro call center con el registro de tu tarifa más baja&nbsp;</span></p>\r\n<p><strong>2. Te igualamos el Precio:&nbsp;</strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 1rem;\">Nuestros Agentes verificarán y replicarán el precio que encontraste.&nbsp;</span></p>\r\n<p><strong>3. Ahorra y disfruta:&nbsp;</strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 1rem;\">Nuestros agentes te proporcionarán la mejor tarifa y sus beneficios. ¡Listo!&nbsp;</span></p>\r\n<p>A disfrutar de unas vacaciones al mejor precio.</p>",
+          "image": "https://villacdn.villagroupresorts.com/uploads/special/image_mobile/1790/Mejor-Tarifa-5.jpg",
+          "promo_code": "FLASH10",
+          "url": "/mejor-tarifa-garantizada",
+          "room_only": { "regula_price": 8403.0, "vlevel_price": 5042.0 },
+          "all_inclusive": { "regula_price": 11767.0 },
+          "call_center_active": false,
+          "booking_hotel_fly": true,
+          "min_noches": 1,
+          "travel_dates": {
+            "travel_start": "2022-03-21T00:00:00",
+            "travel_end": "2026-01-05T00:00:00"
+          }
+        }
+      ],
+      "section_others_list": [
+        {
+          "section_name": "Weddings",
+          "section_description": "<p><strong>Villa La Valencia Beach Resort &amp; Spa</strong> hará de su boda el evento más memorable. Ya sea en la playa o en sus majestuosos jardines frente al Mar de Cortés, podrán elegir imponentes escenarios para su ceremonia y recepción. Con nuestros inigualables <strong>paquetes de bodas en Los Cabos </strong>y el mejor equipo de organizadores a cargo, todo será tal como lo imaginaron. ¡Nadie hace bodas<strong> en Los Cabos</strong> como nosotros!</p>",
+          "section_url": "/bodas",
+          "section_gallery": [
+            {
+              "image": "https://villacdn.villagroupresorts.com/uploads/template_group/normal_cover/8/Villa-La-Valencia-Beach-Resort-And-Spa-Pool-33.jpg",
+              "image_dark": "https://villacdn.villagroupresorts.com/uploads/wedding_package/image/88/Deluxe_reception_package.jpg",
+              "order": 1
+            },
+            {
+              "image": "https://villacdn.villagroupresorts.com/uploads/wedding_package/image/82/Complimentary-Wedding-Ceremony.jpg",
+              "image_dark": "https://villacdn.villagroupresorts.com/uploads/wedding_package/image/82/Complimentary-Wedding-Ceremony.jpg",
+              "order": 1
+            },
+            {
+              "image": "https://villacdn.villagroupresorts.com/uploads/wedding_package/image/87/Premium-reception-package.jpg",
+              "image_dark": "https://villacdn.villagroupresorts.com/uploads/wedding_package/image/87/Premium-reception-package.jpg",
+              "order": 2
+            }
+          ]
+        },
+        {
+          "section_name": "Gourmet Dining",
+          "section_description": "<p>Mucho más que sólo comida, <strong>Villa La Valencia Los Cabos</strong> te ofrece diversas experiencias culinarias que cautivarán todos tus sentidos. Déjate sorprender en nuestro restaurante insignia La Taberna, que sirve una audaz mezcla de platillos españoles y mariscos frescos preparados en una cocina abierta. Prueba los cortes más selectos en Latitud 23.5 Steak House, donde los amantes de la carne tendrán el festín de sus vidas. Por supuesto, la comida mexicana no puede faltar; disfruta diversas especialidades en El Patrón o deliciosos pool snacks y pizzas en Coralle. Por su calidad superior, gran variedad y exquisitos ambientes, definitivamente están por encima del resto de los <strong>restaurantes en Los Cabos</strong>.</p>",
+          "section_url": null,
+          "section_gallery": [
+            {
+              "image": "https://villacdn.villagroupresorts.com/uploads/template_group/normal_cover/8/Villa-La-Valencia-Beach-Resort-And-Spa-Pool-33.jpg",
+              "image_dark": "https://villacdn.villagroupresorts.com/uploads/wedding_package/image/88/Deluxe_reception_package.jpg",
+              "order": 1
+            },
+            {
+              "image": "https://villacdn.villagroupresorts.com/uploads/wedding_package/image/82/Complimentary-Wedding-Ceremony.jpg",
+              "image_dark": "https://villacdn.villagroupresorts.com/uploads/wedding_package/image/82/Complimentary-Wedding-Ceremony.jpg",
+              "order": 1
+            },
+            {
+              "image": "https://villacdn.villagroupresorts.com/uploads/wedding_package/image/87/Premium-reception-package.jpg",
+              "image_dark": "https://villacdn.villagroupresorts.com/uploads/wedding_package/image/87/Premium-reception-package.jpg",
+              "order": 2
+            }
+          ]
+        },
+        {
+          "section_name": "Groups",
+          "section_description": "<p>Villa del Palmar Beach Resort &amp; Spa te ofrece el escenario perfecto en Cabo San Lucas para llevar a cabo con éxito convenciones, reuniones corporativas, eventos sociales, así como también grupos de incentivos y bodas. Nuestro resort frente al mar y con impresionantes vistas a la exótica formación rocosa El Arco, crean un magnífico escenario que cuenta con tres salones de eventos, dos de los cuales se combinan brindándoles una capacidad máxima de 200 personas. Al planificar tu evento en Villa del Palmar Cabo San Lucas, tendrás una gran variedad de restaurantes y bares a tu disposición. Disfruta de esta experiencia gourmet eligiendo entre nuestros planes&nbsp;<a href=\"https://cabo.villadelpalmar.mx/plan-todo-incluido/\" style=\"background-color: rgb(255, 255, 255);\">Todo incluido</a>&nbsp;y Plan Sólo Habitación. Para garantizar una experiencia aún más memorable, Villa del Palmar cuenta con el&nbsp;<a href=\"http://cabo.villadelpalmar.mx/desert-spa/\" style=\"background-color: rgb(255, 255, 255);\">Desert Spa</a>, un spa de lujo con circuito de hidroterapia y tratamientos destinados a incitar una relajación profunda.<br></p>",
+          "section_url": "/grupos",
+          "section_gallery": [
+            {
+              "image": "https://villacdn.villagroupresorts.com/uploads/template_group/normal_cover/8/Villa-La-Valencia-Beach-Resort-And-Spa-Pool-33.jpg",
+              "image_dark": "https://villacdn.villagroupresorts.com/uploads/template_group/normal_cover/8/Villa-La-Valencia-Beach-Resort-And-Spa-Pool-33.jpg",
+              "order": 1
+            },
+            {
+              "image": "https://villacdn.villagroupresorts.com/uploads/template_group/benefits_cover/8/3-copy.jpeg",
+              "image_dark": "https://villacdn.villagroupresorts.com/uploads/template_group/benefits_cover/8/3-copy.jpeg",
+              "order": 2
+            },
+            {
+              "image": "https://villacdn.villagroupresorts.com/uploads/template_group/facilities_cover/8/Meetings-Facilities-Cabo-San-Lucas-Cochimies-01-copy.jpeg",
+              "image_dark": "https://villacdn.villagroupresorts.com/uploads/template_group/facilities_cover/8/Meetings-Facilities-Cabo-San-Lucas-Cochimies-01-copy.jpeg",
+              "order": 3
+            },
+            {
+              "image": "https://villacdn.villagroupresorts.com/uploads/template_group/special_offer_image/8/groups-packages-copy.jpeg",
+              "image_dark": "https://villacdn.villagroupresorts.com/uploads/template_group/special_offer_image/8/groups-packages-copy.jpeg",
+              "order": 4
+            }
+          ]
+        }
+      ],
+      "section_blog_article_list": [
+        {
+          "order": 100,
+          "image": "https://villacdn.villagroupresorts.com/uploads/article/parallax_en/1531/1920x1080_Billboard_The_Talk_VLVLC.jpg",
+          "category": "Noticias",
+          "date": "2024-06-07T00:00:00",
+          "description": "¡Gran Anuncio! El programa The Talk de la CBS presenta Villa La Valencia",
+          "url": "https://villalavalencia.mx/blog/noticias/el-programa-the-talk-de-la-cbs-presenta-villa-la-valencia"
+        },
+        {
+          "order": 100,
+          "image": "https://villacdn.villagroupresorts.com/uploads/article/parallax_en/1271/tour.jpg",
+          "category": "Eventos",
+          "date": "2024-05-28T00:00:00",
+          "description": "Torneos de Pesca Deportiva en Los Cabos 2024",
+          "url": "https://villalavalencia.mx/blog/eventos/torneos-de-pesca-en-los-cabos"
+        },
+        {
+          "order": 100,
+          "image": "https://villacdn.villagroupresorts.com/uploads/article/parallax_en/617/traveling_mexico.jpg",
+          "category": "Destino",
+          "date": "2024-05-07T00:00:00",
+          "description": "Los 5 Mejores Destinos de México Para Explorar en 2024",
+          "url": "https://villalavalencia.mx/blog/destino/5-destinos-ideales-en-mexico-para-ir-de-vacaciones"
+        }
+      ],
+      "awards": [
+      {
+        "image": "https://villacdn.villagroupresorts.com/uploads/photo/image/11851/World_Spa_Awards_Winner_2023.png",
+        "image_dark": "https://villacdn.villagroupresorts.com/uploads/photo/image_dark/11851/World_Spa_Awards_Winner_2023_DM.png",
+        "order": 0
+      },
+      {
+        "image": "https://villacdn.villagroupresorts.com/uploads/photo/image/12310/Conde_Nast_Traveler_Readers_Choice_Awards-2024L.png",
+        "image_dark": "https://villacdn.villagroupresorts.com/uploads/photo/image_dark/12310/Conde_Nast_Traveler_Readers_Choice_Awards-2024D.png",
+        "order": 0
+      },
+      {
+        "image": "https://villacdn.villagroupresorts.com/uploads/photo/image/12311/Wine_Spectator.png",
+        "image_dark": "https://villacdn.villagroupresorts.com/uploads/photo/image_dark/12311/Wine_Spectator-black.png",
+        "order": 0
+      },
+      {
+        "image": "https://villacdn.villagroupresorts.com/uploads/photo/image/12312/Travel-Sunset-2022.png",
+        "image_dark": "https://villacdn.villagroupresorts.com/uploads/photo/image_dark/12312/Travel-Sunset-2022-Black.png",
+        "order": 0
+      },
+      {
+        "image": "https://villacdn.villagroupresorts.com/uploads/photo/image/12320/Travelers_Choice_2023.png",
+        "image_dark": "https://villacdn.villagroupresorts.com/uploads/photo/image_dark/12320/Travelers_Choice_2023_Winner.png",
+        "order": 0
+      },
+      {
+        "image": "https://villacdn.villagroupresorts.com/uploads/photo/image/12821/Best_Resort_2024.png",
+        "image_dark": "https://villacdn.villagroupresorts.com/uploads/photo/image_dark/12821/Best_Resort.png",
+        "order": 0
+      }
+    ]},
+    "social_networks": {
+      "Tripadvisor": "https://www.tripadvisor.com/Hotel_Review-g152515-d23150281-Reviews-Villa_La_Valencia_Beach_Resort_Spa_Los_Cabos-Cabo_San_Lucas_Los_Cabos_Baja_California.html",
+      "Youtube": "https://www.youtube.com/@villalavalenciabeachresort6128",
+      "Pinterest": "https://www.pinterest.com.mx/villagroup/villa-la-valencia-beach-resort-spa-los-cabos/",
+      "Twitter": "https://twitter.com/VillaLaValencia",
+      "instagram": "https://www.instagram.com/villalavalencia/",
+      "Facebook": "https://www.facebook.com/VillaLaValencia"
+    },
+    "footer": {
+      "variation": "full",
+      "referrals": [
+        {
+          "section_title": "About the resort",
+          "section_image": "https://villacdn.villagroupresorts.com/uploads/general_template/image_portada/218/Villa-La-Valencia-Beach-Resort-And-Spa-Pool-29.jpg",
+          "section_url": "/acerca-del-resort",
+          "order": 1
+        },
+        {
+          "section_title": "Suites",
+          "section_image": "https://villacdn.villagroupresorts.com/uploads/template_suite/image/19/Villa-La-Valencia-Cabo-Four-Bedroom-Suite-Oceant-Front.jpg",
+          "section_url": "/suites",
+          "order": 2
+        },
+        {
+          "section_title": "Gallery",
+          "section_image": "https://villacdn.villagroupresorts.com/uploads/general_template/image_portada/218/Villa-La-Valencia-Beach-Resort-And-Spa-Pool-29.jpg",
+          "section_url": "/galeria",
+          "order": 3
+        },
+        {
+          "section_title": "Live Cam",
+          "section_image": "https://villacdn.villagroupresorts.com/uploads/general_template/image_portada/218/Villa-La-Valencia-Beach-Resort-And-Spa-Pool-29.jpg",
+          "section_url": null,
+          "order": 4
+        }
+      ]
+    }
+}
+
+       }
+    ]
 }
